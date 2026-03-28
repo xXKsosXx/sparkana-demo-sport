@@ -1,9 +1,6 @@
 import Stripe from "stripe";
 
-const stripe = new Stripe(
-  process.env.STRIPE_SECRET_KEY || "sk_test_placeholder",
-  { apiVersion: "2024-06-20" as Stripe.LatestApiVersion }
-);
+export const dynamic = "force-dynamic";
 
 const PLANS: Record<
   string,
@@ -26,6 +23,10 @@ export async function POST(req: Request) {
       console.warn("Stripe non configure - redirect /merci");
       return Response.json({ redirect: `/merci?plan=${plan}` });
     }
+
+    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
+      apiVersion: "2024-06-20" as Stripe.LatestApiVersion,
+    });
 
     const priceData: Stripe.Checkout.SessionCreateParams.LineItem.PriceData = {
       currency: "eur",

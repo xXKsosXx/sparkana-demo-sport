@@ -1,6 +1,6 @@
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+export const dynamic = "force-dynamic";
 
 export async function POST(req: Request) {
   const { prenom, nom, email, tel, plan } = await req.json();
@@ -8,6 +8,13 @@ export async function POST(req: Request) {
   if (!prenom || !nom || !email) {
     return Response.json({ error: "Champs requis" }, { status: 400 });
   }
+
+  if (!process.env.RESEND_API_KEY || process.env.RESEND_API_KEY === "a_remplir") {
+    console.warn("Resend non configure - skip emails");
+    return Response.json({ success: true });
+  }
+
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   try {
     await Promise.all([
