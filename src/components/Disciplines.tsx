@@ -4,22 +4,22 @@ const disciplines = [
   {
     icon: Swords,
     title: "MMA",
-    desc: "Le m\u00e9lange ultime des arts martiaux. Lutte, frappes et soumissions pour une polyvalence totale.",
+    desc: "Le mélange ultime des arts martiaux. Lutte, frappes et soumissions pour une polyvalence totale.",
   },
   {
     icon: Hand,
     title: "BOXE ANGLAISE",
-    desc: "Le noble art. Travail de jambes, pr\u00e9cision des poings et cardio explosif.",
+    desc: "Le noble art. Travail de jambes, précision des poings et cardio explosif.",
   },
   {
     icon: Zap,
-    title: "MUAY THA\u00cf",
-    desc: "L\u2019art des 8 membres. Utilisez vos coudes, genoux, tibias et poings avec puissance.",
+    title: "MUAY THAÏ",
+    desc: "L'art des 8 membres. Utilisez vos coudes, genoux, tibias et poings avec puissance.",
   },
   {
     icon: Shield,
     title: "GRAPPLING",
-    desc: "Ma\u00eetrise au sol sans kimono. Techniques de contr\u00f4le, de projection et de soumission.",
+    desc: "Maîtrise au sol sans kimono. Techniques de contrôle, de projection et de soumission.",
   },
 ];
 

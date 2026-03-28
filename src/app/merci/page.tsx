@@ -22,14 +22,14 @@ function MerciContent() {
           </p>
         )}
         <p className="font-sans text-sm text-muted leading-relaxed mt-4">
-          Ta demande d&apos;inscription a \u00e9t\u00e9 re\u00e7ue. Tu vas recevoir un email de
+          Ta demande d&apos;inscription a été reçue. Tu vas recevoir un email de
           confirmation avec toutes les infos pratiques.
         </p>
         <Link
           href="/"
           className="mt-10 inline-block border border-rouge text-rouge px-8 py-3 font-sans text-xs tracking-widest uppercase hover:bg-rouge hover:text-texte transition"
         >
-          \u2190 RETOUR AU SITE
+          ← RETOUR AU SITE
         </Link>
       </div>
     </div>

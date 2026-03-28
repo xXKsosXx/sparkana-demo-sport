@@ -14,7 +14,7 @@ export default function Resultats() {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
           <h2 className="font-display text-7xl uppercase leading-none">NOS CHAMPIONS</h2>
           <span className="font-headline text-rouge text-2xl tracking-[0.2em]">
-            R\u00c9SULTATS COMP\u00c9TITION
+            RÉSULTATS COMPÉTITION
           </span>
         </div>
 

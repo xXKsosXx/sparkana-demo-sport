@@ -3,10 +3,10 @@ import { Share2, Video } from "lucide-react";
 const footerLinks = [
   "DISCIPLINES",
   "LES COACHS",
-  "R\u00c9SULTATS",
+  "RÉSULTATS",
   "TARIFS",
   "CONTACT",
-  "MENTIONS L\u00c9GALES",
+  "MENTIONS LÉGALES",
 ];
 
 export default function Footer() {
@@ -19,7 +19,7 @@ export default function Footer() {
             GARD COMBAT CLUB
           </span>
           <p className="font-sans text-xs text-muted tracking-widest leading-loose">
-            Route de N\u00eemes, 30700 Uz\u00e8s, Gard.<br />
+            Route de Nîmes, 30700 Uzès, Gard.<br />
             Forgez votre corps et votre esprit dans le temple du combat.<br />
             Contact: contact@gardcombatclub.fr
           </p>
@@ -55,7 +55,7 @@ export default function Footer() {
             </a>
           </div>
           <p className="font-sans text-[10px] uppercase tracking-[0.3em] text-muted/50">
-            \u00a9 2025 GARD COMBAT CLUB. ALL RIGHTS RESERVED.
+            © 2025 GARD COMBAT CLUB. ALL RIGHTS RESERVED.
           </p>
         </div>
       </div>

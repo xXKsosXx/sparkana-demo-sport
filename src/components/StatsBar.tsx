@@ -2,7 +2,7 @@ const stats = [
   { value: "120+", label: "MEMBRES ACTIFS" },
   { value: "4", label: "DISCIPLINES" },
   { value: "10", label: "COACHES EXPERTS" },
-  { value: "2014", label: "FOND\u00c9 \u00c0 UZ\u00c8S" },
+  { value: "2014", label: "FONDÉ À UZÈS" },
 ];
 
 export default function StatsBar() {

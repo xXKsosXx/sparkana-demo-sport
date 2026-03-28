@@ -19,10 +19,10 @@ const plans = [
   {
     id: "decouverte",
     icon: Swords,
-    title: "D\u00c9COUVERTE",
-    price: "15\u20ac",
-    period: "/ S\u00e9ance",
-    features: ["Acc\u00e8s s\u00e9ance unique", "Toutes disciplines", "Pr\u00eat de mat\u00e9riel"],
+    title: "DÉCOUVERTE",
+    price: "15€",
+    period: "/ Séance",
+    features: ["Accès séance unique", "Toutes disciplines", "Prêt de matériel"],
     highlighted: false,
     btnClass: "border-2 border-[#ac8884] text-texte",
   },
@@ -30,10 +30,10 @@ const plans = [
     id: "mensuel",
     icon: Dumbbell,
     title: "MENSUEL",
-    price: "65\u20ac",
+    price: "65€",
     period: "/ Mois",
     features: [
-      "Acc\u00e8s illimit\u00e9 6j/7",
+      "Accès illimité 6j/7",
       "Toutes disciplines",
       "Licence incluse",
       "Bilan mensuel",
@@ -45,9 +45,9 @@ const plans = [
     id: "annuel",
     icon: Trophy,
     title: "ANNUEL",
-    price: "399\u20ac",
+    price: "399€",
     period: "/ An",
-    features: ["2 Mois offerts", "T-Shirt Club Offert", "Acc\u00e8s illimit\u00e9", "Bilan trimestriel"],
+    features: ["2 Mois offerts", "T-Shirt Club Offert", "Accès illimité", "Bilan trimestriel"],
     highlighted: false,
     btnClass: "border-2 border-[#ac8884] text-texte",
   },
@@ -113,7 +113,7 @@ function InscriptionContent() {
             REJOINS <span className="text-rouge">GARD COMBAT CLUB</span>
           </h1>
           <p className="font-sans text-muted uppercase tracking-widest border-l-4 border-rouge pl-4">
-            L&apos;ar\u00e8ne vous attend. Commencez votre transformation aujourd&apos;hui.
+            L&apos;arène vous attend. Commencez votre transformation aujourd&apos;hui.
           </p>
         </div>
 
@@ -147,7 +147,7 @@ function InscriptionContent() {
                 >
                   {p.highlighted && (
                     <span className="absolute -top-4 right-8 bg-rouge text-texte px-4 py-1 font-display text-sm tracking-widest uppercase">
-                      RECOMMAND\u00c9
+                      RECOMMANDÉ
                     </span>
                   )}
                   <div>
@@ -168,7 +168,7 @@ function InscriptionContent() {
                   <div
                     className={`py-3 w-full font-display text-xl tracking-widest uppercase text-center hover:bg-texte hover:text-noir transition ${p.btnClass}`}
                   >
-                    S\u00c9LECTIONNER
+                    SÉLECTIONNER
                   </div>
                 </button>
               ))}
@@ -202,7 +202,7 @@ function InscriptionContent() {
                 </div>
                 <div>
                   <label className="font-sans text-xs uppercase tracking-[0.15em] text-muted mb-2 block">
-                    PR\u00c9NOM
+                    PRÉNOM
                   </label>
                   <input
                     name="prenom"
@@ -229,7 +229,7 @@ function InscriptionContent() {
                 </div>
                 <div>
                   <label className="font-sans text-xs uppercase tracking-[0.15em] text-muted mb-2 block">
-                    T\u00c9L\u00c9PHONE
+                    TÉLÉPHONE
                   </label>
                   <input
                     name="tel"
@@ -256,7 +256,7 @@ function InscriptionContent() {
 
               <div className="pt-8 border-t border-[#5c403c] flex items-center justify-between gap-6 flex-wrap">
                 <p className="font-sans text-xs text-muted uppercase tracking-wider max-w-[240px]">
-                  Paiement 100% s\u00e9curis\u00e9 via STRIPE. Vos donn\u00e9es sont crypt\u00e9es.
+                  Paiement 100% sécurisé via STRIPE. Vos données sont cryptées.
                 </p>
                 <button
                   type="button"
@@ -278,7 +278,7 @@ function InscriptionContent() {
                 <div>
                   <div className="flex items-center gap-3 mb-1">
                     <ShieldCheck size={24} className="text-texte" />
-                    <span className="text-texte text-sm font-bold uppercase">COACHS CERTIFI\u00c9S</span>
+                    <span className="text-texte text-sm font-bold uppercase">COACHS CERTIFIÉS</span>
                   </div>
                   <p className="text-texte/80 text-xs mt-1">
                     Experts en MMA, Boxe, JJB et Muay Thai.
@@ -287,19 +287,19 @@ function InscriptionContent() {
                 <div>
                   <div className="flex items-center gap-3 mb-1">
                     <Zap size={24} className="text-texte" />
-                    <span className="text-texte text-sm font-bold uppercase">\u00c9QUIPEMENT PRO</span>
+                    <span className="text-texte text-sm font-bold uppercase">ÉQUIPEMENT PRO</span>
                   </div>
                   <p className="text-texte/80 text-xs mt-1">
-                    Sac de frappe, Octogone, Tatami haute densit\u00e9.
+                    Sac de frappe, Octogone, Tatami haute densité.
                   </p>
                 </div>
                 <div>
                   <div className="flex items-center gap-3 mb-1">
                     <Users size={24} className="text-texte" />
-                    <span className="text-texte text-sm font-bold uppercase">COMMUNAUT\u00c9</span>
+                    <span className="text-texte text-sm font-bold uppercase">COMMUNAUTÉ</span>
                   </div>
                   <p className="text-texte/80 text-xs mt-1">
-                    Plus qu&apos;un club, une famille soud\u00e9e.
+                    Plus qu&apos;un club, une famille soudée.
                   </p>
                 </div>
               </div>

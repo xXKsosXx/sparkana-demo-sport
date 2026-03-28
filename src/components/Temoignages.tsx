@@ -3,19 +3,19 @@ import { Quote } from "lucide-react";
 const temoignages = [
   {
     citation:
-      "Une ambiance exceptionnelle et des coaches qui poussent au-del\u00e0 de ses limites. On apprend autant sur le combat que sur soi-m\u00eame.",
+      "Une ambiance exceptionnelle et des coaches qui poussent au-delà de ses limites. On apprend autant sur le combat que sur soi-même.",
     nom: "MARC A.",
     role: "MEMBRE DEPUIS 3 ANS",
   },
   {
     citation:
-      "Le meilleur club du Gard pour le Grappling. La technique est mise en avant avant tout. Id\u00e9al pour progresser sainement.",
+      "Le meilleur club du Gard pour le Grappling. La technique est mise en avant avant tout. Idéal pour progresser sainement.",
     nom: "JULIE B.",
     role: "CEINTURE BLEUE",
   },
   {
     citation:
-      "J\u2019ai commenc\u00e9 sans aucune base. Aujourd\u2019hui, je me sens plus fort, plus serein et j\u2019ai une discipline que je n\u2019avais jamais eue.",
+      "J'ai commencé sans aucune base. Aujourd'hui, je me sens plus fort, plus serein et j'ai une discipline que je n'avais jamais eue.",
     nom: "ANTOINE P.",
     role: "SECTION BOXE",
   },
@@ -26,7 +26,7 @@ export default function Temoignages() {
     <section className="bg-[#1c1b1b] py-24 px-6">
       <div className="container mx-auto">
         <h2 className="font-display text-4xl mb-16 uppercase text-center tracking-widest">
-          ILS SE SONT FORG\u00c9S ICI
+          ILS SE SONT FORGÉS ICI
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">

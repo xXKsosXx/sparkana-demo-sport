@@ -22,9 +22,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "GARD COMBAT CLUB \u00b7 MMA & Combat Sports \u00b7 Uz\u00e8s",
+  title: "GARD COMBAT CLUB · MMA & Combat Sports · Uzès",
   description:
-    "Club de MMA, Boxe, Grappling et Muay Tha\u00ef \u00e0 Uz\u00e8s dans le Gard. Rejoignez l'\u00e9lite du combat depuis 2014.",
+    "Club de MMA, Boxe, Grappling et Muay Thaï à Uzès dans le Gard. Rejoignez l'élite du combat depuis 2014.",
 };
 
 export default function RootLayout({

@@ -7,7 +7,7 @@ import { Menu, X } from "lucide-react";
 const links = [
   { label: "DISCIPLINES", href: "#disciplines" },
   { label: "LES COACHS", href: "#coachs" },
-  { label: "R\u00c9SULTATS", href: "#resultats" },
+  { label: "RÉSULTATS", href: "#resultats" },
   { label: "TARIFS", href: "#tarifs" },
 ];
 
